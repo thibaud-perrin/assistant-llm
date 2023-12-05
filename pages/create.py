@@ -47,8 +47,8 @@ with st.form("configure", clear_on_submit=True):
     model = st.selectbox(
         "Select a model",
         (
-            "Mistral-7B",
-            "zephyr-7b-beta",
+            "mistral",
+            "zephyr",
         ),
         index=0,
     )
